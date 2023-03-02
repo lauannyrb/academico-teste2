@@ -186,7 +186,7 @@ main .meio{
     border-radius: 20px;
     width: 18vh;
     height: 18vh;
-    background: #246644 url("/Menu/img-menu/matricula.png") no-repeat center center;
+    background: #246644 url("img-menu/matricula.png") no-repeat center center;
     background-size: 80%; /* define o tamanho da imagem em relação ao botão */
     cursor: pointer;
     margin-right: 95px;
@@ -197,7 +197,7 @@ main .meio{
 .linha-cima .linha1-2{
     background-color: #246644;
     border-radius: 20px;
-    background: #246644 url("/Menu/img-menu/boletim.png") no-repeat center center;
+    background: #246644 url("/img-menu/boletim.png") no-repeat center center;
     background-size: 63%; /* define o tamanho da imagem em relação ao botão */
     cursor: pointer;
     width: 18vh;
