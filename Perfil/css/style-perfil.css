@@ -260,7 +260,7 @@ h3{
 .sair [type="submit"]{
     width: 100px;
     height: 50px;
-    background: #246644 url("/perfil/img/sair.png") no-repeat center center;
+    background: #246644 url("/Perfil/img/sair.png") no-repeat center center;
     background-size: 80%;
     border-radius: 45px;
     border: none;
@@ -270,7 +270,7 @@ h3{
 .config [type="submit"]{
     width: 50px;
     height: 50px;
-    background: #246644 url("/perfil/img/configuracoes.png") no-repeat center center;
+    background: #246644 url("/Perfil/img/configuracoes.png") no-repeat center center;
     background-size: 80%; /* define o tamanho da imagem em relação ao botão */
     border-radius: 45px;
     border: none;

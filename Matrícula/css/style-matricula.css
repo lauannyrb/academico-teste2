@@ -65,7 +65,7 @@ span{
     width: 100%;
     text-align: center;
     margin: 10px auto;
-    font-size: 1em;
+    font-size: 1rem;
     border-radius: 10px;
     overflow: hidden;
   }
@@ -90,7 +90,22 @@ span{
     font-size: 0.8rem;
 }
 
+.circle {
+    display:inline-table;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(19, 255, 51);
+    /*margin-right: 20px;*/
+  }
 
+.circle2{
+    display:inline-table;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+}
 
 button {
     padding: 5px 10px;
@@ -105,4 +120,68 @@ button:hover {
     background-color: #b4b1b1;
     cursor: pointer;
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+@media only screen and (max-width:800px){
+    
+    span{
+        padding-left: 16px;
+        font-size: 0.8rem;
+    }
+    
+    .matricula th,.matricula td {
+        padding: 3px;
+        text-align: left;
+        font-size: 0.8rem;
+    }
+      
+    .matricula th {
+        font-size: 0.8rem;
+    }
+    
+    .circle {
+        width: 15px;
+        height: 15px;
+      }
+    
+    .circle2{
+        width: 15px;
+        height: 15px;
+    }
+
+    button {
+        padding: 3px 8px;
+        font-size: 0.8em;
+        margin: 0 10px;
+    }
+    
+}
+
+@media only screen and (max-width:600px){
+    
+    span{
+        padding-left: 10px;
+        font-size: 0.6rem;
+        font-weight: bold;
+    }
+    
+    .matricula th,.matricula td {
+        padding: 3px;
+        text-align: left;
+        font-size: 0.5rem;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .matricula th {
+        font-size: 0.5rem;
+    }
+    
+    .container-tabela{
+        background-color: #246644;
+        height: 50vh;
+        width: 60vw;
+        border-radius: 20px;
+        padding: 20px;
+    }
+
 }
